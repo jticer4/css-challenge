@@ -5,30 +5,6 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-/*sets the background color and text color for my header element */
-header {
-	background-color: #333333;
-	color: #00f606;
-}
-
-h1 {
-	display: inline-block;
-}
-em {
-	display: inline-block;
-	margin: 1em;
-}
-
-.instructions-wrapper {
-	display: inline-block;
-	border: solid black .1em;
-	text-align: center;
-}
-
-.about-me .container {
-	background-color: #0000ff;
-}
-
 html, body {
 	margin: 0;
 	box-sizing: border-box;
@@ -85,3 +61,29 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/*sets the background color and text color for my header element */
+header {
+	background-color: #333333;
+	color: #00f606;
+}
+
+/*takes my header element and adds both lines of text to the same inline block */
+h1 {
+	display: inline-block;
+}
+em {
+	display: inline-block;
+	margin: 1em;
+}
+
+/*wraps the instructions table in a solid black border */
+.instructions-wrapper {
+	display: inline-block;
+	border: solid black .1em;
+	text-align: center;
+}
+
+/*set the background color of the about me section */
+.about-me .container {
+	background-color: #0000ff;
+}
