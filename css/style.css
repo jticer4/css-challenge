@@ -171,8 +171,7 @@ form {
 	display: inline-block;
 	float: left;
 	text-align: left;
-	padding-left: 1.5em;
-	padding-right: 50em;
+	padding: 1.5em 50em 1.5em 1.5em;
 	background-color: #006400;
 	color: #00f900;
 }
