@@ -158,3 +158,17 @@ td {
 	color: #00f50e;
 	padding: .7em;
 }
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+form {
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
