@@ -77,9 +77,9 @@ em {
 	display: inline-block;
 	margin: 1em;
 }
-
+/* adds a top margin to the welcome gif */
 [src="images/welcome.gif"] {
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 /*wraps the instructions table in a solid black border */
@@ -97,6 +97,7 @@ em {
 	height: 10em;
 	width: 12em;
 	float: right;
+	margin-left: 3em;
 }
 
 /*floats the instructions text to the left of the Janeway image */
@@ -112,14 +113,48 @@ em {
 	background-color: #0000ff;
 	align-content: right;
 	text-align: left;
+	padding: 3em;
 }
+/* floated the Picard image left, made it smaller, and set a right margin */
 [src="images/stunning.jpg"] {
 	float: left;
 	height: 15em;
 	width: 18em;
+	margin-right: 3em;
 }
 
 /*centers my text and block elements */
 html, body {
 	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: .1em solid black;
+}
+
+th {
+	border-collapse: collapse;
+	border: .2em solid #ffffff;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
+}
+
+tr {
+	border-collapse: collapse;
+	border: .2em solid #7b7b7b;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
+}
+
+td {
+	border-collapse: collapse;
+	border: .2em solid #7b7b7b;
+	background-color: #333333;
+	color: #00f50e;
+	padding: .7em;
 }
