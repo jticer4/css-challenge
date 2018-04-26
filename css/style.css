@@ -66,6 +66,7 @@ header * {
 	background-color: #333333;
 	color: #00f606;
 	text-align: left;
+	padding-left: 2.2em;
 }
 
 /*takes my header element and adds both lines of text to the same inline block */
