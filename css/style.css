@@ -77,6 +77,10 @@ em {
 	margin: 1em;
 }
 
+[src="images/welcome.gif"] {
+	margin-top: 2em;
+}
+
 /*wraps the instructions table in a solid black border */
 .instructions-wrapper {
 	display: inline-block;
