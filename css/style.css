@@ -175,3 +175,10 @@ form {
 	background-color: #006400;
 	color: #00f900;
 }
+
+button {
+	background-color: #00ff00;
+	color: black;
+	padding: .25em 1.5em;
+	margin: .1em .25em;
+}
