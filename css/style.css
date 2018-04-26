@@ -79,11 +79,30 @@ em {
 /*wraps the instructions table in a solid black border */
 .instructions-wrapper {
 	display: inline-block;
-	border: solid black .1em;
+	border: solid black .2em;
 	text-align: center;
+	margin-bottom: 3em;
+}
+
+/*floats Janeway image to the right of the text */
+.instructions-wrapper > img {
+	height: 10em;
+	width: 12em;
+	float: right;
+}
+
+/*floats the instructions text to the left of the Janeway image */
+.instructions-wrapper > .instructions-content {
+	float: left;
+	border-right: 3em;
 }
 
 /*set the background color of the about me section */
 .about-me .container {
 	background-color: #0000ff;
+}
+
+/*centers my text and block elements */
+html, body {
+	text-align: center;
 }
