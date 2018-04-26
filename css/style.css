@@ -62,9 +62,10 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 /*sets the background color and text color for my header element */
-header {
+header * {
 	background-color: #333333;
 	color: #00f606;
+	text-align: left;
 }
 
 /*takes my header element and adds both lines of text to the same inline block */
@@ -82,6 +83,8 @@ em {
 	border: solid black .2em;
 	text-align: center;
 	margin-bottom: 3em;
+	margin-top: 1em;
+	padding: 2em;
 }
 
 /*floats Janeway image to the right of the text */
@@ -95,6 +98,7 @@ em {
 .instructions-wrapper > .instructions-content {
 	float: left;
 	border-right: 3em;
+	text-align: left;
 }
 
 /*set the background color of the about me section */
