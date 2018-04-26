@@ -110,7 +110,8 @@ em {
 .about-me .container {
 	display: inline-block;
 	background-color: #0000ff;
-	text-align: right;
+	align-content: right;
+	text-align: left;
 }
 [src="images/stunning.jpg"] {
 	float: left;
