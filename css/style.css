@@ -108,7 +108,12 @@ em {
 
 /*set the background color of the about me section */
 .about-me .container {
+	display: inline-block;
 	background-color: #0000ff;
+	text-align: left;
+}
+[src="images/stunning.jpg"] {
+	float: right;
 }
 
 /*centers my text and block elements */
