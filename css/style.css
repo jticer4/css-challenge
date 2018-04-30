@@ -121,6 +121,7 @@ em {
 	height: 15em;
 	width: 18em;
 	margin-right: 3em;
+	border: .25em solid white;
 }
 
 /*centers my text and block elements */
@@ -176,9 +177,21 @@ form {
 	color: #00f900;
 }
 
+.form-wrapper {
+	display: inline-block;
+	background-color: #006400;
+	margin-top: 3em;
+}
+
 button {
 	background-color: #00ff00;
 	color: black;
 	padding: .25em 1.5em;
 	margin: .1em .25em;
 }
+
+footer {
+	background-color: #000000;
+	color: #edf6fd;
+}
+
